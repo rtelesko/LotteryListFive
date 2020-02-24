@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // Adding some Players
         playerList.add(new Player("Anthony Joshua", "30 years old", R.drawable.joshua));
         playerList.add(new Player("Wladimir Klitschko", "43 years old", R.drawable.klitschko));
-        playerList.add(new Player("Saul Alvarez", "29 years old", R.drawable.alvarez));
+        playerList.add(new Player("Deontay Wilder", "34 years old", R.drawable.wilder));
 
         // Creating RecyclerView adapter
         PlayerAdapter adapter = new PlayerAdapter(this, playerList);
